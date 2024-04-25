@@ -2,9 +2,12 @@
   "name": "starbucks-clone",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://mrsiamabdullah.github.io/starbucks-clone/",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
