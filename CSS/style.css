@@ -6,23 +6,3 @@
   background-color: #000;
   color: #fff;
 }
-
-.join {
-  @apply font-semibold bg-black text-white px-5 py-2 text-xs rounded-full border-solid border-[1px] border-black duration-300 hover:bg-transparent hover:text-black;
-}
-
-.join__free {
-  @apply font-semibold bg-transparent text-white px-5 py-2 text-xs rounded-full border-solid border-[1px] border-white duration-300 hover:bg-black hover:text-white hover:border-black;
-}
-
-span {
-  @apply text-blue-800 font-semibold underline cursor-pointer;
-}
-
-.footer_link {
-  @apply hover:underline;
-}
-
-.icon {
-  @apply text-lg cursor-pointer;
-}
